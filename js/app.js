@@ -13,7 +13,7 @@ console.log(usercolor)
 
 
 let usernumber
-usernumber = prompt("Digita un numero da uno 1 a 100")
+usernumber = Math.floor(Math.random()*100);
 console.log(usernumber)
 
 
