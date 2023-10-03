@@ -1,26 +1,26 @@
-let userName
-userName = prompt("Qual'è il tuo nome?")
-console.log(userName)
+let username
+username = prompt("Qual'è il tuo nome?")
+console.log(username)
 
-let surName
-surName = prompt("Qual'è il tuo cognome?")
-console.log(surName)
-
-
-let userColor
-userColor = prompt("Qual'è il tuo colore preferito?")
-console.log(userColor)
+let surname
+surname = prompt("Qual'è il tuo cognome?")
+console.log(surname)
 
 
-let userNUmber
-userNUmber = prompt("Digita un numero da uno 1 a 100")
-console.log(userNUmber)
+let usercolor
+usercolor = prompt("Qual'è il tuo colore preferito?")
+console.log(usercolor)
 
 
-let sumData 
-sumData =  surName + userColor + userNUmber + userName 
-console.log(sumData)
+let usernumber
+usernumber = prompt("Digita un numero da uno 1 a 100")
+console.log(usernumber)
 
-const dataDomElement = document.getElementById("x")
+
+let concatenatedData
+concatenatedData = username + surname + usercolor + usernumber 
+console.log(concatenatedData)
+
+const dataDomElement = document.getElementById("password")
 console.dir(dataDomElement)
-dataDomElement.innerHTML = sumData
+dataDomElement.innerHTML = concatenatedData
